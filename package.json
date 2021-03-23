@@ -1,0 +1,23 @@
+{
+  "name": "etraad-frontend",
+  "version": "1.0.0",
+  "description": "Font End for Etraad Ecommerce App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harounach/etraad-frontend.git"
+  },
+  "keywords": [
+    "Etraad",
+    "Ecommerce"
+  ],
+  "author": "Haroun Ach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harounach/etraad-frontend/issues"
+  },
+  "homepage": "https://github.com/harounach/etraad-frontend#readme"
+}
