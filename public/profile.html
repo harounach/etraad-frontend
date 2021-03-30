@@ -13,6 +13,79 @@
     <title>Profile</title>
   </head>
   <body>
-    <h1>Profile</h1>
+    <!-- appbar -->
+    <header class="appbar">
+      <!-- logo -->
+      <a class="logo" href="home.html"
+        ><img class="logo__img" src="./images/App-Icon.svg" alt="" />
+      </a>
+
+      <!-- search -->
+      <form>
+        <input type="text" name="search" placeholder="Search" />
+      </form>
+
+      <!-- navigation -->
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Favorites</li>
+          <li>Cart</li>
+        </ul>
+      </nav>
+
+      <!-- profile -->
+      <div>Profile</div>
+    </header>
+    <main class="main">
+      <!-- content -->
+      <div>
+        <!-- form section -->
+        <div>
+          <form>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" />
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" />
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" />
+            <label for="passwordConfirm">Password</label>
+            <input
+              type="password"
+              id="passwordConfirm"
+              name="passwordConfirm"
+            />
+            <button type="submit">Update</button>
+            <button type="submit">Remove</button>
+          </form>
+        </div>
+
+        <!-- history section -->
+        <div>
+          <!-- order history -->
+          <div>
+            <h2>Order History</h2>
+            <div>
+              <div>Item Card 1</div>
+              <div>Item Card 2</div>
+              <div>Item Card 3</div>
+            </div>
+          </div>
+
+          <!-- favorites -->
+          <div>
+            <h2>Favorites</h2>
+            <div>
+              <div>Item Card 1</div>
+              <div>Item Card 2</div>
+              <div>Item Card 3</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <p class="copyright-notice">Copyright Haroun Ach 2021</p>
+    </footer>
   </body>
 </html>
